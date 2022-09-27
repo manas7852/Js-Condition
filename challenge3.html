@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Condition</title>
+</head>
+<body>
+    <h1>Else If Example</h1>
+    <p id="result"></p>
+    <script>
+        let role = "Admin";
+        if(role == "teacher"){
+            document.getElementById("result").innerHTML = "The Role Is <b>Teacher</b>"
+        } else if(role == "Admin"){
+            document.getElementById("result").innerHTML = "The Role Is <b>Admin</b>"
+        } else if(role == "student"){
+            document.getElementById("result").innerHTML = "The Role Is <b>Student</b>"
+        } else {
+            document.getElementById("result").innerHTML = "<b>Unknown Role</b>"
+        }
+    </script>
+</body>
+</html>

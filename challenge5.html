@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Condition</title>
+</head>
+<body>
+    <p id="result"></p>
+    <script>
+        let country = "Paris";
+        switch(country){
+            case 'India' : 
+              document.getElementById("result").innerHTML = "You Have India VISA, <br> Enjoy Your India Trip"
+              break;
+            case 'Paris' : 
+              document.getElementById("result").innerHTML = "You Have Paris VISA, <br> Enjoy Your Paris Trip"
+              break;
+            case 'HongKong' : 
+              document.getElementById("result").innerHTML = "You Have HongKong VISA, <br> Enjoy Your HongKong Trip"
+              break;
+            default : 
+            document.getElementById("result").innerHTML = "Sorry Your Visa Application Is Rejected"    
+        }
+    </script>
+</body>
+</html>
